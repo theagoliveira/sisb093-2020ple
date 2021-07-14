@@ -1,0 +1,75 @@
+/* @theme uncover-thiago */
+
+@import "uncover";
+
+section code {
+  font-family: "IBM Plex Mono";
+}
+
+table thead tr th:first-child {
+  padding-left: 0px;
+}
+
+table thead tr th:last-child {
+  padding-right: 0px;
+}
+
+table tbody tr td {
+  white-space: nowrap;
+}
+
+table tbody tr td:first-child {
+  padding-left: 0px;
+}
+
+table tbody tr td:last-child {
+  padding-right: 0px;
+}
+
+table tbody tr:last-child td {
+  border-bottom: 3px solid;
+}
+
+table thead tr:first-child th {
+  border-top: 3px solid;
+  border-bottom: 2px solid;
+  top: 0px;
+  background-color: #fdfcff;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+table {
+  display: block;
+  overflow-y: scroll;
+  border-collapse: separate !important;
+  border-spacing: 0;
+}
+
+blockquote {
+  text-align: justify;
+}
+
+section.large-ul ul {
+  font-size: 140%;
+}
+
+section.small-ol ol {
+  font-size: 75%;
+}
+
+section.small-ul ul {
+  font-size: 75%;
+}
+
+section.show-terminal h1 {
+  margin-bottom: auto;
+}
+
+section.decrease-font p {
+  font-size: 33px;
+}
+
+section.text-justify p {
+  text-align: justify;
+}
